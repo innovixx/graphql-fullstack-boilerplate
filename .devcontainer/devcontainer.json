@@ -1,0 +1,28 @@
+{
+	"name": "graphql-fullstack-boilerplate",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "server",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+	"customizations": {
+		"codespaces": {
+			"repositories": {
+				"Innovixx-Development/graphql-server-boilerplate": {
+					"permissions": "read-all"
+				},
+				"Innovixx-Development/graphql-client-boilerplate": {
+          "permissions": "read-all"
+				}
+			}
+		},
+		"vscode": {
+			"extensions": [
+				"mongodb.mongodb-vscode",
+				"Prisma.prisma",
+				"GraphQL.vscode-graphql"
+			]
+		}
+	},
+
+	"forwardPorts": [3000, 9000, 5432, 19000]
+}

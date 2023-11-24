@@ -1,0 +1,21 @@
+{
+  "name": "graphql-fullstack-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Innovixx-Development/graphql-fullstack-boilerplate.git",
+  "author": "Kalon Robson <kalon.robson@innovixx.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "build:server": "cd server && yarn build",
+    "build:client": "cd client && yarn build",
+    "dev:server": "cd server && yarn dev",
+    "dev:client": "cd client && yarn dev",
+    "dev:mobile": "cd mobile && yarn dev",
+    "dev": "concurrently \"yarn dev:server\" \"yarn dev:client\" \"yarn dev:mobile\"",
+    "build": "yarn build:server && yarn build:client",
+    "serve": "cd server && yarn serve"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
