@@ -3,7 +3,6 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "server",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-
 	"customizations": {
 		"codespaces": {
 			"repositories": {
@@ -23,6 +22,8 @@
 			]
 		}
 	},
-
-	"forwardPorts": [3000, 9000, 5432, 19000]
+	"forwardPorts": [3000, 9000, 5432, 19000],
+	"mounts": [
+    "type=bind,source=/home/${localEnv:USER}/.ssh,target=/home/node/.ssh,readonly"
+  ]
 }
