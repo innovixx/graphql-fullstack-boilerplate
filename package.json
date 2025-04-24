@@ -2,7 +2,7 @@
   "name": "graphql-fullstack-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Innovixx-Development/graphql-fullstack-boilerplate.git",
+  "repository": "git@github.com:Innovixx/graphql-fullstack-boilerplate.git",
   "author": "Innovixx <support@innovixx.co.uk>",
   "license": "MIT",
   "scripts": {

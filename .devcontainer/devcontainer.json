@@ -6,10 +6,10 @@
 	"customizations": {
 		"codespaces": {
 			"repositories": {
-				"Innovixx-Development/graphql-server-boilerplate": {
+				"Innovixx/graphql-server-boilerplate": {
 					"permissions": "read-all"
 				},
-				"Innovixx-Development/graphql-client-boilerplate": {
+				"Innovixx/graphql-client-boilerplate": {
 					"permissions": "read-all"
 				}
 			}

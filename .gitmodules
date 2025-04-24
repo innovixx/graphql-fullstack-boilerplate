@@ -1,12 +1,12 @@
 [submodule "client"]
 	path = client
-	url = git@github.com:Innovixx-Development/graphql-client-boilerplate.git
+	url = git@github.com:Innovixx/graphql-client-boilerplate.git
 	branch = master
 [submodule "server"]
 	path = server
-	url = git@github.com:Innovixx-Development/graphql-server-boilerplate.git
+	url = git@github.com:Innovixx/graphql-server-boilerplate.git
 	branch = master
 [submodule "mobile"]
 	path = mobile
-	url = git@github.com:Innovixx-Development/graphql-mobile-boilerplate.git
+	url = git@github.com:Innovixx/graphql-mobile-boilerplate.git
 	branch = master
