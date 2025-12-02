@@ -6,7 +6,3 @@
 	path = server
 	url = git@github.com:Innovixx/graphql-server-boilerplate.git
 	branch = master
-[submodule "mobile"]
-	path = mobile
-	url = git@github.com:Innovixx/graphql-mobile-boilerplate.git
-	branch = master
