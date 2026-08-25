@@ -24,18 +24,6 @@ services:
     working_dir: /workspaces/graphql-fullstack-boilerplate/client
     network_mode: service:server
 
-  mobile:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ../..:/workspaces:cached
-      - ~/.ssh:/home/vscode/.ssh:cached
-      - ~/.npmrc:/home/vscode/.npmrc:cached
-    command: sleep infinity
-    working_dir: /workspaces/graphql-fullstack-boilerplate/mobile
-    network_mode: service:server
-
   db:
     image: postgres:16
     restart: unless-stopped
